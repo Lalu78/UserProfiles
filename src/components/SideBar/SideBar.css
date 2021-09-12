@@ -1,0 +1,23 @@
+.sidebar {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  height: 100vh;
+  margin: 40px 20px 20px 20px;
+  border-radius: 20px;
+  background-color: rgb(86, 86, 250);
+}
+.sidebar p {
+  /* margin-left: 15px; */
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  
+ 
+}
+.sidebar hr {
+  margin: 15px;
+}

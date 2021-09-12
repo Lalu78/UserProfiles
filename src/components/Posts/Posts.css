@@ -1,0 +1,43 @@
+
+
+.Rightside{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+   
+    background-color: white;
+    margin: 40px 20px 20px 20px; 
+    
+}
+.headerprofile{
+    display: flex;
+}
+.profilename{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:gray;
+    margin-top: 10px;
+}
+.username{
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.username p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:gray;
+}
+.coming_soon{
+    display: flex;
+    justify-content: center;
+ 
+    
+}
+.coming_soon h1{
+   
+    font-size: 5rem;
+    font-weight: 900;
+    color:lightgray;
+}
