@@ -18,7 +18,7 @@ function Posts({ userdata, item }) {
   const [openPopup, setOpenPopup] = useState(false);
   const classes = useStyles();
   return (
-    <div>
+    <div className='Posts'>
       <div className="Rightside">
         <div className="headerprofile">
           <div className="profilename">

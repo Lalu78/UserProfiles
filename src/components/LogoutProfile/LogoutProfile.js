@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function LogoutProfile({ userdata, item }) {
+export default  function LogoutProfile({ userdata, item }) {
   const [userdata1, setUserdata1] = useState([]);
   const classes = useStyles();
 
@@ -41,7 +41,6 @@ function LogoutProfile({ userdata, item }) {
           <div>
             <div className="profilelist1">
               <Link to="/profile">
-                
                 <div
                   onClick={() => onHandleClick(e.id)}
                   className="profilelist2"
@@ -63,7 +62,6 @@ function LogoutProfile({ userdata, item }) {
           </div>
 
           <Link to="/">
-            
             <button>Sign Out</button>
           </Link>
         </div>
@@ -72,4 +70,4 @@ function LogoutProfile({ userdata, item }) {
   );
 }
 
-export default LogoutProfile;
+//export default LogoutProfile;

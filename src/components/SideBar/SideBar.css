@@ -1,16 +1,23 @@
+
+.SideBar{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+}
 .sidebar {
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 25%;
+  width: 80%;
   height: 100vh;
-  margin: 40px 20px 20px 20px;
+  margin: 40px 20px 20px 40px;
   border-radius: 20px;
   background-color: rgb(86, 86, 250);
 }
 .sidebar p {
-  /* margin-left: 15px; */
+ 
   padding: 10px;
   font-size: 1.2rem;
   font-weight: 600;
@@ -20,4 +27,71 @@
 }
 .sidebar hr {
   margin: 15px;
+}
+.arroybutton{
+  display: flex;
+align-items: center;
+}
+.pro1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  background-color: white;
+  width: 50px;
+  height: 30px;
+  margin-left: 69%;
+  border-radius: 50%;
+  
+}
+.pro2{
+  display: none;
+
+  
+}
+.post1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  
+}
+.post2{
+
+  display: none;
+}
+.gally1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  
+}
+.gally2{
+  display: none;
+
+  
+}
+.todo1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  
+}
+.todo2{
+
+  display: none;
 }

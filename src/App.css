@@ -4,9 +4,13 @@
 a{
   text-decoration:none;
 }
+.App{
+  display: flex;
+}
 
 .container{
-  background-color: white;
+  background:url('./bg2.jpg');
+  object-fit: contain; 
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -15,6 +19,7 @@ a{
   
 }
 .account{
+
   display: flex;
   flex-direction: column;
   width: 40%;

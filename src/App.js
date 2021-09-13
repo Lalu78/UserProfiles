@@ -39,6 +39,7 @@ function App() {
 
   return (
     <Router>
+     
       <div className="container">
         <Switch>
           <Route exact path="/">
@@ -54,13 +55,14 @@ function App() {
                     onClick={() => onHandleClick(ele.id)}
                   >
                     <Link to="/profile">
-                      {" "}
+                     
                       <div className="profilewraper">
                         <Avatar
                           alt="Remy Sharp"
                           src="/static/images/avatar/1.jpg"
                         />
                         <p> {ele.name}</p>
+                      
                       </div>
                     </Link>
                     <div className="hr"></div>
@@ -70,6 +72,7 @@ function App() {
             </div>
           </Route>
         </Switch>
+        
        
         <Switch>
           <Route exact path="/profile">
@@ -99,7 +102,8 @@ function App() {
             <Chat item={item}/>
           </Route>
         </Switch>
-      </div>
+        </div>
+      
     </Router>
   );
 }
